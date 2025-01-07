@@ -1,6 +1,9 @@
 /* Extra small devices */
+
+/* hero-section start */
 @media only screen and (min-width: 320px) and (max-width: 575.98px) {
   .hero-section {
+    height: 435px;
     background-image: url(../asset/images/mobile-img-1.jpg);
     background-repeat: no-repeat;
     background-size: 670px 430px;
@@ -25,7 +28,6 @@
   .hero-section .left .btn {
     padding: 11px 27px;
     font-size: 17px;
-    margin-bottom: 10px;
   }
 
   .hero-section .right {
@@ -33,13 +35,111 @@
   }
 
   /* hero-section end */
+
+  /* gallary-section start */
+
+  .gallary-section {
+    padding: 180px 139px 50px;
+    grid-template-columns: auto auto;
+    align-content: center;
+  }
+
+  .gallary-section h3 {
+    font-size: 44px;
+    color: #ffffff;
+    font-weight: 300;
+    line-height: 1;
+    margin: 0 auto;
+  }
+
+  .gallary-h3-br {
+    display: none;
+  }
+
+  .gallary-section .images {
+    display: grid;
+    gap: 13px;
+  }
+
+  .gallary-section .images img {
+    width: 139px;
+    height: 149px;
+    object-fit: cover;
+    border-radius: 16px;
+  }
+
+  .gallary-section .h3-1 {
+    grid-column: 1/3;
+    grid-row: 1/1;
+    font-size: 25px;
+    margin-bottom: 17px;
+  }
+
+  .gallary-section .coffee-img-1 {
+    grid-column: 1/1;
+    grid-row: 2/2;
+  }
+  .gallary-section .coffee-img-2 {
+    grid-column: 2/2;
+    grid-row: 2/2;
+  }
+  .gallary-section .coffee-img-3 {
+    grid-column: 1/1;
+    grid-row: 3/3;
+  }
+  .gallary-section .coffee-img-4 {
+    display: none;
+  }
+  .gallary-section .coffee-img-5 {
+    grid-column: 2/2;
+    grid-row: 3/3;
+  }
+  .gallary-section .coffee-img-6 {
+    grid-column: 1/1;
+    grid-row: 4/4;
+  }
+  .gallary-section .coffee-img-7 {
+    grid-column: 2/2;
+    grid-row: 4/4;
+  }
+
+  .gallary-section .h3-2 {
+    grid-column: 1/3;
+    grid-row: 5/5;
+    margin-top: 17px;
+    font-size: 33px;
+  }
+
+  .achivement {
+    width: 100%;
+    padding: 7px;
+    justify-content: space-around;
+    top: 3%;
+    left: 0%;
+    transform: translate(0%, -50%);
+    background-color: #ecdac4;
+    border-radius: 0;
+  }
+
+  .achivement .left,
+  .achivement .middle {
+    margin-right: 10px;
+  }
+
+  .achivement p {
+    font-size: 11px;
+    font-weight: 500;
+  }
+
+  /* gallary-section end */
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media  (min-width: 576px) and (max-width: 767.98px) {
+@media (min-width: 576px) and (max-width: 767.98px) {
   /* hero-section start */
 
   .hero-section {
+    height: 100vh;
     background-image: url(../asset/images/mobile-img-1.jpg);
     background-repeat: no-repeat;
     background-size: 800px 560px;
@@ -71,4 +171,93 @@
   }
 
   /* hero-section end */
+
+  /* gallary-section start */
+
+  .gallary-section {
+    padding: 180px 35px 50px;
+    grid-template-columns: auto auto;
+    align-content: center;
+  }
+
+  .gallary-section h3 {
+    font-size: 44px;
+    color: #ffffff;
+    font-weight: 300;
+    line-height: 1;
+    margin: 0 auto;
+  }
+
+  .gallary-h3-br {
+    display: none;
+  }
+
+  .gallary-section .images {
+    display: grid;
+    gap: 18px;
+  }
+
+  .gallary-section .images img {
+    width: 243px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 16px;
+  }
+
+  .gallary-section .h3-1 {
+    grid-column: 1/3;
+    grid-row: 1/1;
+    font-size: 41px;
+    margin-bottom: 17px;
+  }
+
+  .gallary-section .coffee-img-1 {
+    grid-column: 1/1;
+    grid-row: 2/2;
+  }
+  .gallary-section .coffee-img-2 {
+    grid-column: 2/2;
+    grid-row: 2/2;
+  }
+  .gallary-section .coffee-img-3 {
+    grid-column: 1/1;
+    grid-row: 3/3;
+  }
+  .gallary-section .coffee-img-4 {
+    display: none;
+  }
+  .gallary-section .coffee-img-5 {
+    grid-column: 2/2;
+    grid-row: 3/3;
+  }
+  .gallary-section .coffee-img-6 {
+    grid-column: 1/1;
+    grid-row: 4/4;
+  }
+  .gallary-section .coffee-img-7 {
+    grid-column: 2/2;
+    grid-row: 4/4;
+  }
+
+  .gallary-section .h3-2 {
+    grid-column: 1/3;
+    grid-row: 5/5;
+    margin-top: 17px;
+  }
+
+  .achivement {
+    width: 100%;
+    padding: 13px;
+    justify-content: space-around;
+    top: 3%;
+    left: 0%;
+    transform: translate(0%, -50%);
+    background-color: #ecdac4;
+    border-radius: 0;
+  }
+
+  .achivement .left,
+  .achivement .middle {
+    margin-right: 10px;
+  }
 }
