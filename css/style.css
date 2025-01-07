@@ -9,3 +9,56 @@
 body {
   font-family: "Playfair Display", serif;
 }
+
+/* hero section start */
+
+.hero-section {
+  display: flex;
+}
+
+.hero-section .left {
+  width: 40%;
+  margin: 157px 0 186px 126px;
+}
+
+.hero-section .left .texts h1 {
+  font-size: 64px;
+  font-weight: 700;
+  color: #363031;
+  margin-bottom: 32px;
+}
+
+.hero-section .left .texts p {
+  font-size: 24px;
+  margin-bottom: 32px;
+  color: #363031;
+}
+
+.hero-section .left .btn {
+  padding: 24px 48px;
+  border-radius: 9999px;
+  background-color: #a36a4f;
+  border: none;
+  font-size: 23px;
+  color: #ffffff;
+}
+
+.hero-section .right {
+  width: 60%;
+  position: relative;
+}
+
+.hero-section .right .coffee-img_1 {
+  border-radius: 50%;
+  position: absolute;
+  top: 64px;
+  right: 270px;
+}
+.hero-section .right .coffee-img_2 {
+  border-radius: 50%;
+  position: absolute;
+  top: 344px;
+  right: 117px;
+}
+
+/* hero section end */
