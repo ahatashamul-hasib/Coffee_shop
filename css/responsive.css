@@ -1,0 +1,74 @@
+/* Extra small devices */
+@media only screen and (min-width: 320px) and (max-width: 575.98px) {
+  .hero-section {
+    background-image: url(../asset/images/mobile-img-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 670px 430px;
+  }
+  .hero-section .left {
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+  }
+
+  .hero-section .left .texts h1 {
+    color: white;
+    font-size: 40px;
+  }
+  .hero-section .left .texts p {
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    width: 260px;
+  }
+
+  .hero-section .left .btn {
+    padding: 11px 27px;
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+
+  .hero-section .right {
+    display: none;
+  }
+
+  /* hero-section end */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media  (min-width: 576px) and (max-width: 767.98px) {
+  /* hero-section start */
+
+  .hero-section {
+    background-image: url(../asset/images/mobile-img-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 800px 560px;
+  }
+  .hero-section .left {
+    width: 100%;
+    margin: 0;
+    padding: 30px;
+  }
+
+  .hero-section .left .texts h1 {
+    color: white;
+    font-size: 60px;
+  }
+  .hero-section .left .texts p {
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    width: 300px;
+  }
+
+  .hero-section .left .btn {
+    padding: 15px 40px;
+    font-size: 20px;
+  }
+
+  .hero-section .right {
+    display: none;
+  }
+
+  /* hero-section end */
+}
