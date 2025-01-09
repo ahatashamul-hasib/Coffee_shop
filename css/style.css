@@ -35,7 +35,7 @@ body {
 }
 
 .hero-section .left .btn {
-  padding: 24px 48px;
+  padding: 20px 46px;
   border-radius: 9999px;
   background-color: #a36a4f;
   border: none;
@@ -68,7 +68,7 @@ body {
 
 /* hero section end */
 
-/* gallary-section start */
+/* gallary section start */
 
 .gallary-section {
   padding: 232px 64px 104px;
@@ -154,9 +154,10 @@ body {
 }
 
 .achivement {
-  width: 57%;
+  width: 65%;
   padding: 24px 95px;
   display: flex;
+  justify-content: space-around;
   text-align: center;
   position: absolute;
   top: 0;
@@ -165,11 +166,6 @@ body {
   background-color: #ecdac4;
   border-radius: 9999px;
   font-family: "Poppins", serif;
-}
-
-.achivement .left,
-.achivement .middle {
-  margin-right: 88px;
 }
 
 .achivement .icon img {
@@ -186,6 +182,7 @@ body {
 }
 .achivement p {
   color: #363031;
+  font-size: 18px;
 }
 
-/* gallary-section end */
+/* gallary section end */

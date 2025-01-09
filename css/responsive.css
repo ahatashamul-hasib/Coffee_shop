@@ -36,7 +36,7 @@
 
   /* hero-section end */
 
-  /* gallary-section start */
+  /* gallary section start */
 
   .gallary-section {
     padding: 110px 40px 50px;
@@ -136,11 +136,6 @@
     border-radius: 0;
   }
 
-  .achivement .left,
-  .achivement .middle {
-    margin-right: 10px;
-  }
-
   .achivement h4 {
     font-size: 24px;
     margin-bottom: 5px;
@@ -154,8 +149,8 @@
   /* gallary-section end */
 }
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {
+/* Small devices */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
   /* hero-section start */
 
   .hero-section {
@@ -192,7 +187,7 @@
 
   /* hero-section end */
 
-  /* gallary-section start */
+  /* gallary section start */
 
   .gallary-section {
     padding: 160px 35px 50px;
@@ -289,8 +284,145 @@
     border-radius: 0;
   }
 
-  .achivement .left,
-  .achivement .middle {
-    margin-right: 10px;
+  /* gallary-section end */
+}
+
+/* Medium devices */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  body {
+    display: none;
+  }
+}
+
+/* Large devices */
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  /* hero-section start */
+  .hero-section .left {
+    width: 40%;
+    margin: 157px 0 200px 60px;
+  }
+
+  .hero-section .right .coffee-img_1 {
+    top: 90px;
+    right: 150px;
+    width: 410px;
+  }
+  .hero-section .right .coffee-img_2 {
+    top: 367px;
+    right: 55px;
+    width: 245px;
+  }
+  /* hero-section end */
+
+  /* gallary section start */
+
+  .gallary-section {
+    padding: 160px 35px 50px;
+    grid-template-columns: auto auto;
+  }
+
+  .gallary-section h3 {
+    font-size: 44px;
+    color: #ffffff;
+    font-weight: 300;
+    line-height: 1;
+    margin: 0 auto;
+  }
+
+  .gallary-h3-br {
+    display: none;
+  }
+
+  .gallary-section .images {
+    display: grid;
+    gap: 18px;
+  }
+
+  .gallary-section .images img {
+    width: 243px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 16px;
+  }
+
+  .gallary-section .h3-1 {
+    grid-column: 1/4;
+    grid-row: 1/1;
+    font-size: 41px;
+    margin-bottom: 17px;
+    line-height: 2;
+  }
+
+  .gallary-section .images .h3-1::after {
+    width: 80%;
+    height: 3px;
+    margin: 0 auto;
+  }
+
+  .gallary-section .coffee-img-1 {
+    grid-column: 1/1;
+    grid-row: 2/2;
+  }
+  .gallary-section .coffee-img-2 {
+    grid-column: 2/2;
+    grid-row: 2/2;
+  }
+  .gallary-section .coffee-img-3 {
+    grid-column: 3/3;
+    grid-row: 2/2;
+  }
+  .gallary-section .coffee-img-4 {
+    display: none;
+  }
+  .gallary-section .coffee-img-5 {
+    grid-column: 1/1;
+    grid-row: 3/3;
+  }
+  .gallary-section .coffee-img-6 {
+    grid-column: 2/2;
+    grid-row: 3/3;
+  }
+  .gallary-section .coffee-img-7 {
+    grid-column: 3/3;
+    grid-row: 3/3;
+  }
+
+  .gallary-section .h3-2 {
+    grid-column: 1/4;
+    grid-row: 5/5;
+    margin-top: 17px;
+    line-height: 2;
+  }
+
+  .gallary-section .images .h3-2::after {
+    width: 70%;
+    height: 3px;
+    margin: 0 auto;
+  }
+
+  .achivement {
+    width: 75%;
+    justify-content: space-around;
+    padding: 15px 80px;
+  }
+
+  /* gallary section end */
+}
+
+/* Large devices + i guess */
+@media only screen and (min-width: 1200px) and (max-width: 1250.98px) {
+  .gallary-section .images img {
+    width: 215px;
+  }
+  .hero-section .left {
+    margin: 157px 0 186px 110px;
+  }
+}
+
+/* Extra large devices */
+@media only screen and (min-width: 1251px) {
+  .container{
+    width: 1360px;
+    margin: 0 auto;
   }
 }
