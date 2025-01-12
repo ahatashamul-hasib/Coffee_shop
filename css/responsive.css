@@ -423,11 +423,15 @@
 }
 
 /* Large devices + i guess */
-@media only screen and (min-width: 1200px) and (max-width: 1250.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1380.98px) {
   .tablets {
     display: none;
   }
 
+  .gallary-section{
+    grid-template-columns: auto auto auto auto auto;
+  }
+  
   .gallary-section .images img {
     width: 215px;
   }
@@ -437,7 +441,7 @@
 }
 
 /* Extra large devices */
-@media only screen and (min-width: 1251px) {
+@media only screen and (min-width: 1381px) {
   .tablets {
     display: none;
   }
