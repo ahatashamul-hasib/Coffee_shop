@@ -10,6 +10,11 @@ body {
   font-family: "Playfair Display", serif;
 }
 
+.container{
+  width: 100%;
+}
+
+
 /* hero section start */
 
 .hero-section {
