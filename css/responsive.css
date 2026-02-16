@@ -32,6 +32,12 @@
   .hero-section .left .btn {
     padding: 11px 27px;
     font-size: 17px;
+    margin-right: 20px;
+  }
+
+  .hero-section .left .btn1 {
+    padding: 11px 27px;
+    font-size: 17px;
   }
 
   .hero-section .right {
@@ -161,7 +167,7 @@
   /* hero-section start */
 
   .hero-section {
-    height: 100vh;
+    height: 70vh;
     background-image: url(../asset/images/mobile-img-1.jpg);
     background-repeat: no-repeat;
     background-size: 800px 560px;
@@ -183,9 +189,15 @@
     width: 300px;
   }
 
-  .hero-section .left .btn {
-    padding: 15px 40px;
-    font-size: 20px;
+   .hero-section .left .btn {
+    padding: 11px 27px;
+    font-size: 17px;
+    margin-right: 20px;
+  }
+
+  .hero-section .left .btn1 {
+    padding: 11px 27px;
+    font-size: 17px;
   }
 
   .hero-section .right {
@@ -428,15 +440,15 @@
     display: none;
   }
 
-  .gallary-section{
+  .gallary-section {
     grid-template-columns: auto auto auto auto auto;
   }
-  
+
   .gallary-section .images img {
     width: 215px;
   }
   .hero-section .left {
-    margin: 157px 0 186px 110px;
+    margin: 137px 0 186px 110px;
   }
 }
 
@@ -449,5 +461,16 @@
   .container {
     width: 1360px;
     margin: 0 auto;
+  }
+}
+
+body {
+  /* Push the whole site down so the sticky ad doesn't cover your content */
+  padding-top: 60px;
+}
+
+@media (max-width: 480px) {
+  body {
+    padding-top: 50px; /* Slightly less for mobile screens */
   }
 }

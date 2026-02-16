@@ -35,7 +35,9 @@ body {
 }
 
 .hero-section .left .btn {
-  padding: 20px 46px;
+  padding: 17px 40px;
+  margin-right: 27px;
+  margin-left: -7px;
   border-radius: 9999px;
   background-color: #a36a4f;
   border: none;
@@ -49,7 +51,7 @@ body {
 }
 
 .hero-section .left .btn1 {
-  padding: 20px 46px;
+  padding: 17px 40px;
   border-radius: 9999px;
   background-color: #a36a4f;
   border: none;

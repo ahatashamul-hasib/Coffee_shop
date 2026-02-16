@@ -4,20 +4,47 @@
   box-sizing: border-box;
 }
 
+body {
+    /* Push the whole site down so the sticky ad doesn't cover your content */
+    padding-top: 60px; 
+}
+
+@media (max-width: 480px) {
+    body {
+        padding-top: 50px; /* Slightly less for mobile screens */
+    }
+}
+
 .head-text {
   display: flex;
   justify-content: center;
   margin: 15px;
+  margin-bottom: 5px;
   color: rgb(3, 131, 88);
 }
 
 .hero-area {
   display: flex;
   padding: 10px;
+  padding-top: 0px;
+}
+
+.hero-area .btn {
+  padding: 12px 25px;
+  border-radius: 9999px;
+  background-color: #419d2f;
+  border: none;
+  font-size: 17px;
+  color: #ffffff;
+}
+
+.hero-area .btn a {
+  color: white;
+  text-decoration: none;
 }
 
 .hero-area p {
-  background-color: red;
+  background-color: #bc1616;
   color: white;
   padding: 5px;
 }
@@ -38,7 +65,7 @@
   border: none;
   border-radius: 10px;
   position: absolute;
-  bottom: 45px;
+  bottom: 37px;
   right: 7px;
   font-size: 17px;
 }
@@ -48,6 +75,7 @@
   height: 470px;
   display: block;
   border: 1px solid red;
+  object-fit: cover;
 }
 
 .img-1 {
@@ -64,24 +92,27 @@
 
 .img-3 {
   width: 25%;
-  height: 77%;
   margin: 10px;
   position: relative;
-  top: 40px;
-}
-
-.short-img-3 {
-  height: 77%;
 }
 
 .img-4 {
   width: 25%;
-  height: 90%;
   margin: 10px;
   position: relative;
-  top: 8px;
 }
 
-.short-img-4 {
-  height: 450px;
+.btn1 {
+  padding: 12px 30px;
+  border-radius: 9999px;
+  background-color: #a36a4f;
+  font-size: 20px;
+  color: #ffffff;
+  width: 30%;
+  margin-left: 37%;
+}
+
+.a1 a {
+  color: white;
+  text-decoration: none;
 }

@@ -1,0 +1,110 @@
+/* MOBILE ONLY RESPONSIVE FIX - DOESN'T TOUCH DESKTOP */
+/* Mobile responsiveness - Samsung M21 and iPhone 11 up */
+@media (max-width: 768px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden !important;
+    margin: 0;
+    padding: 0;
+  }
+
+  .head-text {
+    font-size: 1.8rem !important;
+    padding: 1.5rem 1rem !important;
+    width: 100%;
+  }
+
+  .hero-area {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 1rem !important;
+    margin: 0 !important;
+    overflow-x: hidden !important;
+    display: block !important;
+    flex-direction: column !important;
+  }
+
+  .hero-area button {
+    bottom: 45px;
+  }
+
+  .all-images {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 1.5rem !important;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow-x: hidden !important;
+  }
+
+  .img-1,
+  .img-2,
+  .img-3,
+  .img-4 {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 100% !important;
+    margin: 0 !important;
+    padding-bottom: 10px;
+    border-radius: 8px !important;
+    display: block !important;
+    float: none !important;
+    flex: none !important;
+  }
+
+  .img-1 img,
+  .img-2 img,
+  .img-3 img,
+  .img-4 img {
+    height: 480px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    border-radius: 8px 8px 0 0 !important;
+  }
+
+  .btn1 {
+    width: calc(100% - 2rem) !important;
+    max-width: calc(100% - 2rem) !important;
+    margin: 1.5rem 1rem !important;
+    border-radius: 12px !important;
+  }
+
+  /* MOBILE AD - SHOW IT */
+  .mobile-ad-container {
+    display: block !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    height: auto !important;
+  }
+
+  .mobile-ad-container #frame {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .mobile-ad-container iframe {
+    width: 100% !important;
+    height: 100px !important;
+    display: block !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}
+
+/* Hide mobile ad on desktop (769px and up) */
+@media (min-width: 769px) {
+  .mobile-ad-container {
+    display: none !important;
+  }
+}

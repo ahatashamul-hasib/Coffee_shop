@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(243, 229, 216, 255);
+    padding: 10px 220px 10px;
+    padding-top: 60px; /*this for top ads*/
+  }
+
+main {
+  background-color: white;
+  margin: 100px;
+  margin-top: 25px;
+  padding: 40px;
+  border-radius: 15px;
+}
+
+.banner img {
+    width: 625px;
+    border-radius: 15px;}
+
+h1 {
+  margin: 15px;
+  font-size: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h2 {
+  margin: 15px;
+  color: #794936;
+}
+
+h3 {
+  margin: 15px;
+  color: #90697b;
+}
+
+ol {
+  margin: 15px;
+  padding: 0 10px 0;
+  color: #794936;
+  font-weight: bold;
+}
+
+ul {
+  margin: 10px;
+  padding: 0 30px 10px;
+}
+
+li {
+  margin: 9px;
+}
+
+.li-heading {
+  font-weight: bold;
+}
+
+.li-p {
+  font-weight: normal;
+  color: rgb(78, 76, 76);
+}
+
+
+.preparation {
+  background-color: #fff7fc;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.preparation ul {
+  margin: 15px;
+  padding: 0 30px 0;
+}
+
+p {
+  margin: 15px 10px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.value {
+  text-align: left;
+  padding: 10px;
+  margin-left: 100px;
+  width: 320px;
+  color: #794936;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.nutrition table tr td {
+  width: 320px;
+  padding: 10px 10px 10px 40px;
+  font-family: sans-serif;
+}
+
+.border {
+  border-bottom: 1px solid black;
+}
+
+.btn {
+  padding: 12px 37px;
+  margin-top: 80px;
+  margin-left: 240px;
+  border-radius: 9999px;
+  background-color: #a36a4f;
+  border: none;
+  font-size: 23px;
+  color: #ffffff;
+}
+
+.btn a {
+  color: white;
+  text-decoration: none;
+}
