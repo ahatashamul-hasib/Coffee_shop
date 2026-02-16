@@ -48,6 +48,20 @@ body {
   text-decoration: none;
 }
 
+.hero-section .left .btn1 {
+  padding: 20px 46px;
+  border-radius: 9999px;
+  background-color: #a36a4f;
+  border: none;
+  font-size: 23px;
+  color: #ffffff;
+}
+
+.hero-section .left .btn1 a{
+  color: white;
+  text-decoration: none;
+}
+
 .hero-section .right {
   width: 60%;
   position: relative;
