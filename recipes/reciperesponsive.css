@@ -75,36 +75,4 @@
     margin: 1.5rem 1rem !important;
     border-radius: 12px !important;
   }
-
-  /* MOBILE AD - SHOW IT */
-  .mobile-ad-container {
-    display: block !important;
-    width: 100% !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-    height: auto !important;
-  }
-
-  .mobile-ad-container #frame {
-    width: 100% !important;
-    margin: 0 !important;
-    padding: 0 !important;
-  }
-
-  .mobile-ad-container iframe {
-    width: 100% !important;
-    height: 100px !important;
-    display: block !important;
-    margin: 0 !important;
-    padding: 0 !important;
-  }
-}
-
-/* Hide mobile ad on desktop (769px and up) */
-@media (min-width: 769px) {
-  .mobile-ad-container {
-    display: none !important;
-  }
 }

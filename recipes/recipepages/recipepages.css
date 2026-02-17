@@ -5,10 +5,10 @@
 }
 
 body {
-    background-color: rgba(243, 229, 216, 255);
-    padding: 10px 220px 10px;
-    padding-top: 60px; /*this for top ads*/
-  }
+  background-color: rgba(243, 229, 216, 255);
+  padding: 10px 220px 10px;
+  padding-top: 60px; /*this for top ads*/
+}
 
 main {
   background-color: white;
@@ -19,8 +19,9 @@ main {
 }
 
 .banner img {
-    width: 625px;
-    border-radius: 15px;}
+  width: 625px;
+  border-radius: 15px;
+}
 
 h1 {
   margin: 15px;
@@ -62,7 +63,6 @@ li {
   font-weight: normal;
   color: rgb(78, 76, 76);
 }
-
 
 .preparation {
   background-color: #fff7fc;

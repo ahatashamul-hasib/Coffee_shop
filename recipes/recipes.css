@@ -5,14 +5,14 @@
 }
 
 body {
-    /* Push the whole site down so the sticky ad doesn't cover your content */
-    padding-top: 60px; 
+  /* Push the whole site down so the sticky ad doesn't cover your content */
+  padding-top: 60px;
 }
 
 @media (max-width: 480px) {
-    body {
-        padding-top: 50px; /* Slightly less for mobile screens */
-    }
+  body {
+    padding-top: 50px; /* Slightly less for mobile screens */
+  }
 }
 
 .head-text {
